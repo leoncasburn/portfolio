@@ -57,6 +57,20 @@
             border-radius: 6px;
             box-shadow: 0 2px 6px rgba(0,0,0,0.15);
         }
+        .image-row {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .image-row img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 6px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+        }
         a {
             color: #2563eb;
             text-decoration: none;
@@ -103,8 +117,10 @@
         A bioinformatics project investigating whether simple genomic features can be used to distinguish
         extremophile organisms from non-extremophile bacteria.
     </p>
-    <img src="images/gc_vs_length_scatter.png" alt="GC vs Genome Length Scatter Plot" style="width:100%; max-width:350px;"/>
-    <img src="images/decision_tree.png" alt="Decision Tree Model" style="width:100%; max-width:400px;"/>
+    <div class="image-row">
+        <img src="images/gc_vs_length_scatter.png" alt="GC vs Genome Length Scatter Plot" style="width:100%; max-width:350px;"/>
+        <img src="images/decision_tree.png" alt="Decision Tree Model" style="width:100%; max-width:400px;"/>
+    </div>
     <ul>
         <li>Processed genome sequences from NCBI FASTA files</li>
         <li>Extracted features including GC content and genome length</li>
