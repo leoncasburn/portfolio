@@ -1,9 +1,10 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Leon Casburn | QA & Game Development Portfolio</title>
+    <title>Leon Casburn | Bioinformatics Portfolio</title>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
@@ -33,11 +34,6 @@
             border-radius: 8px;
             box-shadow: 0 2px 6px rgba(0,0,0,0.1);
         }
-        .project img {
-            max-width: 100%;
-            border-radius: 6px;
-            margin-top: 1rem;
-        }
         .tags span {
             display: inline-block;
             background: #e5e7eb;
@@ -65,109 +61,164 @@
 
 <header>
     <h1>Leon Casburn</h1>
-    <p>Computing & Digital Media Graduate | QA / Quality Verification | Game Development</p>
+    <p>Computing Graduate | Bioinformatics & Data Analysis | Python & Machine Learning</p>
     <p>
-        <a style="color:#93c5fd">Email - leoncasburn18@gmail.com</a>
+        <a style="color:#93c5fd">leoncasburn18@gmail.com</a>
     </p>
 </header>
 
 <section>
     <h2>About Me</h2>
     <p>
-        I am a recent graduate with a BSc (Hons) in Computing and Digital Media from ATU Galway, 
-        with a strong interest in Quality Assurance, game testing, and player experience. 
-        I have hands-on experience creating test plans, writing test cases, and developing games, 
-        apps, and websites using modern tools and workflows.
+        I am a recent graduate with a BSc (Hons) in Computing and Digital Media from ATU Galway.
+        I am currently transitioning into bioinformatics, with a focus on applying computational methods
+        to biological problems.
+    </p>
+    <p>
+        I have experience working with genomic data, building Python-based models, and applying statistical
+        and machine learning techniques to explore biological patterns.
+    </p>
+    <p>
+        Alongside this, I have a background in software development and testing, giving me a strong foundation
+        in problem solving, debugging, and structured thinking.
     </p>
 </section>
 
 <section>
-    <h2>Games</h2>
+    <h2>Bioinformatics & Computational Projects</h2>
 
-    <div class="project">
-        <h3>Fin&Recycle – Unity Game</h3>
-        <p>
-            Environmental awareness game where the player controls a fish cleaning the ocean by collecting plastic waste.
-        </p>
-        <p><strong>QA / Testing Focus:</strong></p>
-        <ul>
-            <li>Gameplay, collision, and UI testing</li>
-            <li>Bug identification and iterative improvements</li>
-            <li>Usability and player experience refinement</li>
-        </ul>
-        <div class="tags">
-            <span>Unity</span><span>C#</span><span>Game Testing</span><span>QA</span>
-        </div>
-        <p>
-            <a href="https://groupproject-6fe29.web.app/GroupProjectWebsite/Home.html">Fin&Recycle Website</a>
-        </p>
-        <img src="images/Fin&Recycle.png" alt="Fin&Recycle Screenshot" />
+```
+<div class="project">
+    <h3>Genomic Signatures of Environmental Adaptation</h3>
+    <p>
+        A bioinformatics project investigating whether simple genomic features can be used to distinguish
+        extremophile organisms from non-extremophile bacteria.
+    </p>
+    <ul>
+        <li>Processed genome sequences from NCBI FASTA files</li>
+        <li>Extracted features including GC content and genome length</li>
+        <li>Performed statistical comparison between organism groups</li>
+        <li>Trained machine learning models (Logistic Regression & Decision Tree)</li>
+        <li>Achieved ~75% classification accuracy</li>
+    </ul>
+    <div class="tags">
+        <span>Python</span><span>Bioinformatics</span><span>Machine Learning</span>
+        <span>Genomics</span><span>Data Analysis</span>
     </div>
+    <p><a href="https://github.com/leoncasburn/genomic-adaptation-analysis">View on GitHub</a></p>
+</div>
 
-    <div class="project">
-        <h3>Highrise Horrors – Zombie Survival Game</h3>
-        <p>
-            Wave-based zombie survival game with perk system.
-        </p>
-        <p><strong>QA / Testing Focus:</strong></p>
-        <ul>
-            <li>Enemy AI and spawning logic testing</li>
-            <li>Difficulty balancing and gameplay flow</li>
-            <li>Bug fixing and iteration</li>
-        </ul>
-        <div class="tags">
-            <span>Unity</span><span>C#</span><span>Gameplay Testing</span>
-        </div>
-        <p>
-            <a href="https://leoncasburn18.itch.io/highrise-horrors">Download on itch.io</a>
-        </p>
-        <img src="images/highrisehorrors.png" alt="Highrise Horrors Screenshot" />
+<div class="project">
+    <h3>Mars Habitability Model</h3>
+    <p>
+        A computational model evaluating how well microorganisms may survive Mars-like conditions
+        using biologically relevant traits.
+    </p>
+    <ul>
+        <li>Trait-based scoring system (radiation, desiccation, cold, anaerobic survival)</li>
+        <li>Weighted model producing a survival score out of 100</li>
+        <li>Stacked bar chart visualising trait contributions</li>
+    </ul>
+    <div class="tags">
+        <span>Python</span><span>Data Analysis</span><span>Astrobiology</span>
     </div>
+    <p><a href="https://github.com/leoncasburn/mars-habitability-model">View on GitHub</a></p>
+</div>
+
+<div class="project">
+    <h3>DNA Mutation Analyzer</h3>
+    <p>
+        A Python tool that simulates point mutations in DNA sequences and analyzes their effect on protein translation.
+    </p>
+    <ul>
+        <li>Implements transcription (DNA → RNA) and translation (RNA → protein)</li>
+        <li>Identifies codon and amino acid changes</li>
+        <li>Classifies mutations as silent, missense, or nonsense</li>
+    </ul>
+    <div class="tags">
+        <span>Python</span><span>Bioinformatics</span><span>Genomics</span>
+    </div>
+    <p><a href="https://github.com/leoncasburn/dna-mutation-analyser">View on GitHub</a></p>
+</div>
+```
+
 </section>
 
 <section>
-    <h2>Apps & Websites</h2>
+    <h2>Game Development Projects</h2>
 
-    <div class="project">
-        <h3>TaskWise – Task Management App</h3>
-        <p>
-            Mobile task management application focusing on productivity and usability. Utilises an API to fetch task ideas for the user.
-        </p>
-        <ul>
-            <li>Feature testing and UI/UX evaluation</li>
-            <li>Cross-device testing</li>
-        </ul>
-        <div class="tags">
-            <span>Mobile App</span><span>UI/UX Testing</span>
-        </div>
+```
+<div class="project">
+    <h3>Fin&Recycle – Unity Game</h3>
+    <p>
+        Environmental awareness game where the player controls a fish cleaning the ocean.
+    </p>
+    <ul>
+        <li>Gameplay, collision, and UI testing</li>
+        <li>Bug identification and iterative improvements</li>
+    </ul>
+    <div class="tags">
+        <span>Unity</span><span>C#</span><span>Game Testing</span>
     </div>
+    <p><a href="https://groupproject-6fe29.web.app/GroupProjectWebsite/Home.html">View Game Website</a></p>
+</div>
 
-    <div class="project">
-        <h3>Restaurant Management Database</h3>
-        <p>
-            Database-driven website using SQL CRUD operations to manage restaurant data.
-        </p>
-        <ul>
-            <li>Functional testing of database operations</li>
-            <li>UI and edge case testing</li>
-        </ul>
-        <div class="tags">
-            <span>SQL</span><span>Database Development</span><span>Web Testing</span>
-        </div>
+<div class="project">
+    <h3>Highrise Horrors – Zombie Survival Game</h3>
+    <p>
+        Wave-based zombie survival game with perk system.
+    </p>
+    <ul>
+        <li>Enemy AI and spawning logic testing</li>
+        <li>Gameplay balancing and bug fixing</li>
+    </ul>
+    <div class="tags">
+        <span>Unity</span><span>C#</span>
     </div>
+    <p><a href="https://leoncasburn18.itch.io/highrise-horrors">View Game On itch.io</a></p>
+</div>
+```
+
 </section>
 
 <section>
-    <h2>QA & Testing Experience</h2>
+    <h2>Software Projects</h2>
+
+```
+<div class="project">
+    <h3>TaskWise – Task Management App</h3>
+    <p>
+        Mobile task management app focusing on usability and productivity.
+    </p>
+    <div class="tags">
+        <span>Mobile App</span><span>UI/UX</span>
+    </div>
+</div>
+
+<div class="project">
+    <h3>Restaurant Management Database</h3>
+    <p>
+        Database-driven system using SQL CRUD operations.
+    </p>
+    <div class="tags">
+        <span>SQL</span><span>Database</span>
+    </div>
+</div>
+```
+
+</section>
+
+<section>
+    <h2>Skills</h2>
     <div class="project">
-        <h3>Software Testing & Systems Analysis</h3>
-        <ul>
-            <li>Created structured test plans and test cases</li>
-            <li>Wrote Business Requirements Documents</li>
-            <li>Reported defects with clear reproduction steps</li>
-        </ul>
         <div class="tags">
-            <span>QA</span><span>Test Planning</span><span>Documentation</span>
+            <span>Python</span>
+            <span>Bioinformatics</span>
+            <span>Machine Learning</span>
+            <span>Data Analysis</span>
+            <span>SQL</span>
+            <span>Testing & QA</span>
+            <span>Git & GitHub</span>
         </div>
     </div>
 </section>
@@ -178,11 +229,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
-
